@@ -1,0 +1,11 @@
+[package]
+name = "musicPlayer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+symphonia = { version = "0.5", features = ["all"] }
+cpal = "0.15"
+rubato = "0.15"
+single-instance = "0.3"
+crossterm = "0.27"
